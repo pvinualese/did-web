@@ -3,12 +3,12 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:midominio.com",
+  "id": "did:web:pvinualese.github.io:did-web",
   "verificationMethod": [
     {
-      "id": "did:web:midominio.com#owner",
+      "id": "did:web:pvinualese.github.io:did-web#owner",
       "type": "JsonWebKey2020",
-      "controller": "did:web:midominio.com",
+      "controller": "did:web:pvinualese.github.io:did-web",
       "publicKeyJwk": {
         "kty": "EC",
         "crv": "secp256k1",
@@ -18,9 +18,9 @@
     }
   ],
   "authentication": [
-    "did:web:midominio.com#owner"
+    "did:web:pvinualese.github.io:did-web#owner"
   ],
   "assertionMethod": [
-    "did:web:midominio.com#owner"
+    "did:web:pvinualese.github.io:did-web#owner"
   ]
 }
